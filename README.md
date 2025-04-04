@@ -26,7 +26,7 @@ Live Server (extensão recomendada para testes rápidos)
 
 
 Executando Localmente:
-Clone este repositório
+Clone este repositório (Recomendado! Caso as imagens ou funcionalidades nao carregue corretamente). 
 git clone https://github.com/seu-usuario/petlandia.git
 Acesse o diretório do projeto
 cd petlandia
