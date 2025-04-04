@@ -1,0 +1,86 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px; /* Adicionado padding para evitar que o conteúdo encoste nas bordas */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alterado para alinhar no topo */
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da tela */
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0; /* Adicionado margem para espaçamento */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para o campo de upload de fotos */
+input[type="file"] {
+    padding: 5px;
+}
+
+.idade-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os campos */
+    align-items: center;
+}
+
+#idade_valor {
+    flex: 1; /* Ocupa o espaço disponível */
+}
+
+#idade_tipo {
+    width: 100px; /* Largura fixa para o campo de seleção */
+}
